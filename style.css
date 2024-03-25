@@ -1,0 +1,53 @@
+body {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: #515076;
+}
+
+.title-of-cards {
+  text-align: center;
+  font-size: 70px;
+}
+
+.image-of-card {
+}
+
+.list-of-card {
+  list-style: none;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.list-card {
+  padding: 25px 25px 25px 25px;
+}
+
+.notes-for-card{
+  font-size: 12px;
+  color: #A5A3B9;
+}
+
+.name-of-card{
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.description-of-card{
+}
+
+.compound-of-card{
+  padding: 17px;
+}
+
+.price-text{
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.price-value{
+
+}
+
+
+
