@@ -1,4 +1,6 @@
-*,*::after,*::before{
+*,
+*::after,
+*::before{
   box-sizing: border-box;
 }
 
@@ -32,6 +34,7 @@ body {
   justify-content: center;
   gap: 45px;
   padding: 0;
+  margin: 0;
 }
 
 .card {
@@ -66,17 +69,18 @@ body {
   margin-bottom: 15px;
 }
 
-.card-description + span {
+.card-compound-text {
   display: block;
   margin-bottom: 5px;
 }
 
 .card-compound {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
   padding-left: 17px;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.card-compound  li {
+  padding: 2.5px;
 }
 
 .card-price {
