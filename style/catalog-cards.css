@@ -1,0 +1,10 @@
+.catalog-cards__backgroung {
+    background-image: url(/img/background_card_catalog.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.catalog-cards__title {
+    margin-top: 220px;
+    margin-bottom: 110px;
+}

@@ -1,0 +1,14 @@
+.compound {
+    font-size: 13px;
+    line-height: 18px;
+    color: #515076;
+}
+
+.compound__list {
+    margin-top: 5px;
+    padding-left: 17px;
+}
+
+.compound__list li {
+    padding: 2.5px;
+}

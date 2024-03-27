@@ -1,0 +1,47 @@
+.card {
+    background-color: #F7F7FA;
+    padding: 25px;
+    width: 100%;
+}
+
+.card__image {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.card__category {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #A5A3B9;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.card__name {
+    font-size: 20px;
+    line-height: 27px;
+    color: #515076;
+    margin: 0px 0px 5px 0px;
+}
+
+.card__description {
+    font-size: 13px;
+    line-height: 18px;
+    color: #515076;
+}
+.card__description p:first-child {
+    margin-top: 8px;
+}
+
+.card__description p {
+    margin-bottom: 15px;
+}
+
+.card__compound {
+    margin-bottom: 23px;
+}
+
+.card__price {
+    margin-bottom: 0px;
+}

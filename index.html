@@ -3,101 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/clear-list.css" />
+    <link rel="stylesheet" href="style/price.css" />
+    <link rel="stylesheet" href="style/compound.css" />
+    <link rel="stylesheet" href="style/card.css" />
+    <link rel="stylesheet" href="style/cards-list.css" />
+    <link rel="stylesheet" href="style/title.css" />
+    <link rel="stylesheet" href="style/container.css" />
+    <link rel="stylesheet" href="style/catalog-cards.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Catalog of cards</title>
   </head>
   <body>
-    <div class="container-for-cards">
-        <h1 class="card-title">Выбери свой продукт</h1>
-        <ul class="card-catalog">
-            <li class="card">
-                <img class="card-image" src="img/moisturizing_mousse_1.jpg" alt="moisturizing mousse"/>
-                <span class="card-notes">Для нормальной кожи</span>
-                <h2 class="card-name">Увлажняющий мусс</h2>
-                <p class="card-description">Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
-                <span class="card-compound-text">Состав:</span>
-                <ul class="card-compound">
-                    <li>активные натуральные комплексы</li>
-                    <li>витамины С, А, РР, В И Е</li>
-                    <li>солнцезащитные компоненты</li>
+        <main class="catalog-cards">
+            <div class="catalog-cards__backgroung container">
+                <h1 class="catalog-cards__title title">Выбери свой продукт</h1>
+                <ul class="cards-list clear-list" >
+                    <li class="cards-list__item card">
+                        <img class="card__image" src="img/moisturizing_mousse_1.jpg" alt="moisturizing mousse"/>
+                        <span class="card__category">Для нормальной кожи</span>
+                        <h2 class="card__name">Увлажняющий мусс</h2>
+                        <div class="card__description">
+                            <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
+                        </div>
+                        <div class="card__compound compound">
+                            <span class="compound__text">Состав:</span>
+                            <ul class="compound__list">
+                                <li>активные натуральные комплексы</li>
+                                <li>витамины С, А, РР, В И Е</li>
+                                <li>солнцезащитные компоненты</li>
+                            </ul>
+                        </div>
+                        <div class="card__price price">
+                            <b class="price__text">Цена</b>
+                            <span class="price__value">2 750 ₽</span>
+                        </div>
+                    </li>
+                    <li class="cards-list__item card">
+                        <img class="card__image" src="img/moisturizing_mask_1.jpg" alt="moisturizing mask"/>
+                        <span class="card__category">Для нормальной кожи</span>
+                        <h2 class="card__name">Увлажняющая маска</h2>
+                        <div class="card__description">
+                            <p>Способствует удерживанию влаги в верхних слоях кожи.</p>
+                        </div>
+                        <div class="card__compound compound">
+                            <span class="compound__text">Состав:</span>
+                            <ul class="compound__list">
+                                <li>воски</li>
+                                <li>минералы</li>
+                                <li>масла</li>
+                            </ul>
+                        </div>
+                        <div class="card__price price">
+                            <b class="price__text">Цена</b>
+                            <span class="price__value">3 500 ₽</span>
+                        </div>
+                    </li>
+                    <li class="cards-list__item card">
+                        <img class="card__image" src="img/washing_gel_1.jpg" alt="washing gel"/>
+                        <span class="card__category">Для нормальной кожи</span>
+                        <h2 class="card__name">Гель для умывания</h2>
+                        <div class="card__description">
+                            <p>Интенсивно очищает, не повреждает защитный барьер кожи.</p>
+                        </div>
+                        <div class="card__compound compound">
+                            <span class="compound__text">Состав:</span>
+                            <ul class="compound__list">
+                                <li>минералы</li>
+                                <li>витамины С, А, РР, В И Е</li>
+                                <li>солнцезащитные компоненты</li>
+                            </ul>
+                        </div>
+                        <div class="card__price price">
+                            <b class="price__text">Цена</b>
+                            <span class="price__value">1 650 ₽</span>
+                        </div>
+                    </li>
+                    <li class="cards-list__item card">
+                        <img class="card__image" src="img/gift_set_n_1.jpg" alt="gift set n 1"/>
+                        <span class="card__category">Для нормальной кожи</span>
+                        <h2 class="card__name">Подарочный набор №1</h2>
+                        <div class="card__description">
+                            <p>Набор, состоящий из увлажняющего крема и маски.</p>
+                        </div>
+                        <div class="card__compound compound">
+                            <span class="compound__text">Состав:</span>
+                            <ul class="compound__list">
+                                <li>воски</li>
+                                <li>минералы</li>
+                                <li>масла</li>
+                            </ul>
+                        </div>
+                        <div class="card__price price">
+                            <b class="price__text">Цена</b>
+                            <span class="price__value">4 750 ₽</span>
+                        </div>
+                        
+                    </li>
+                    <li class="cards-list__item card">
+                        <img class="card__image" src="img/gift_set_n_5.jpg" alt="gift set n 5" />
+                        <span class="card__category">Для нормальной кожи</span>
+                        <h2 class="card__name">Подарочный набор №5</h2>
+                        <div class="card__description">
+                            <p>Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</p>
+                        </div>
+                        <div class="card__compound compound">
+                            <span class="compound__text">Состав:</span>
+                            <ul class="compound__list">
+                                <li>воски</li>
+                                <li>минералы</li>
+                                <li>масла</li>
+                            </ul>
+                        </div>
+                        <div class="card__price price">
+                            <b class="price__text">Цена</b>
+                            <span class="price__value">7 520 ₽</span>
+                        </div>
+                    </li>
                 </ul>
-                <div class="card-price">
-                    <b>Цена</b>
-                    <span>2 750 ₽</span>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card-image" src="img/moisturizing_mask_1.jpg" alt="moisturizing mask"/>
-                <span class="card-notes">Для нормальной кожи</span>
-                <h2 class="card-name">Увлажняющая маска</h2>
-                <p class="card-description">Способствует удерживанию влаги в верхних слоях кожи.</p>
-                <span class="card-compound-text">Состав:</span>
-                <ul class="card-compound">
-                    <li>воски</li>
-                    <li>минералы</li>
-                    <li>масла</li>
-                </ul>
-                <div class="card-price">
-                    <b>Цена</b>
-                    <span>3 500 ₽</span>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card-image" src="img/washing_gel_1.jpg" alt="washing gel"/>
-                <span class="card-notes">Для нормальной кожи</span>
-                <h2 class="card-name">Гель для умывания</h2>
-                <p class="card-description">Интенсивно очищает, не повреждает защитный барьер кожи.</p>
-                <span class="card-compound-text">Состав:</span>
-                <ul class="card-compound">
-                    <li>минералы</li>
-                    <li>витамины С, А, РР, В И Е</li>
-                    <li>солнцезащитные компоненты</li>
-                </ul>
-                <div class="card-price">
-                    <b>Цена</b>
-                    <span>1 650 ₽</span>
-                </div>
-            </li>
-            <li class="card">
-                <img class="card-image" src="img/gift_set_n_1.jpg" alt="gift set n 1"/>
-                <span class="card-notes">Для нормальной кожи</span>
-                <h2 class="card-name">Подарочный набор №1</h2>
-                <p class="card-description">Набор, состоящий из увлажняющего крема и маски.</p>
-                <span class="card-compound-text">Состав:</span>
-                <ul class="card-compound">
-                    <li>воски</li>
-                    <li>минералы</li>
-                    <li>масла</li>
-                </ul>
-                <div class="card-price">
-                    <b>Цена</b>
-                    <span>4 750 ₽</span>
-                </div>
-                
-            </li>
-            <li class="card">
-                <img class="card-image" src="img/gift_set_n_5.jpg" alt="gift set n 5" />
-                <span class="card-notes">Для нормальной кожи</span>
-                <h2 class="card-name">Подарочный набор №5</h2>
-                <p class="card-description">Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</p>
-                <span class="card-compound-text">Состав:</span>
-                <ul class="card-compound">
-                    <li>воски</li>
-                    <li>минералы</li>
-                    <li>масла</li>
-                </ul>
-                <div class="card-price">
-                    <b>Цена</b>
-                    <span>7 520 ₽</span>
-                </div>
-            </li>
-        </ul>
-    </div>
+            </div>
+        </main>
   </body>
 </html>

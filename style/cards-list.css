@@ -1,0 +1,10 @@
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+}
+
+.cards-list__item {
+    max-width: 340px;
+}

@@ -1,0 +1,17 @@
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__text {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #515076;
+}
+
+.price__value {
+    font-size: 20px;
+    line-height: 24px;
+    color: #515076;
+}
