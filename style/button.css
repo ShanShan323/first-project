@@ -1,0 +1,37 @@
+.button {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.button__text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button_bgcolor-red {
+    background-color: brown;
+}
+
+.button_bgcolor-orange {
+    background-color: coral;
+}
+
+.button_textcolor-green {
+    color: hsl(147, 63%, 41%);
+}
+
+.button_textcolor-red {
+    color: hsl(0, 79%, 42%);
+}
+
+.button_position-left {
+    margin-inline-end: auto;
+}
+
+.button_position-right {
+    margin-inline-start: auto;
+}
+
+.button_position-center {
+    margin: 0 auto;
+}
